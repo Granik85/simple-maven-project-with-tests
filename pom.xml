@@ -10,7 +10,7 @@
             <layout>default</layout>
             <id>internal-snapshot</id>
             <name>snapshot</name>
-            <url>http://127.0.0.1/repository/repository-jenkins-snp/</url>
+            <url>http://127.0.0.1:8081/repository/repository-jenkins-snp/</url>
             <!--            <id>internal-release</id>-->
             <!--            <name>release</name>-->
             <!--            <url>http://127.0.0.1/repository/repository-jenkins-snp/</url>-->
