@@ -5,6 +5,18 @@
     <artifactId>simple-maven-project-with-tests</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <distributionManagement>
+        <repository>
+            <layout>default</layout>
+            <id>internal-snapshot</id>
+            <name>snapshot</name>
+            <url>http://127.0.0.1/repository/repository-jenkins-snp/</url>
+            <!--            <id>internal-release</id>-->
+            <!--            <name>release</name>-->
+            <!--            <url>http://127.0.0.1/repository/repository-jenkins-snp/</url>-->
+        </repository>
+    </distributionManagement>
+    
     <licenses>
         <license>
             <name>MIT License</name>
