@@ -5,7 +5,7 @@
     <artifactId>simple-maven-project-with-tests</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-        <repositories>
+    <repositories>
         <repository>
             <id>internal-snapshots</id>
             <name>snapshots</name>
